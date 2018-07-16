@@ -23,9 +23,10 @@ $(window).scroll(function(){
 	}
 });
 
-	$('.but.brd').attr({
-	target: '_blank',
+$('.but.brd').attr({
+	download: 'karinakuroda.pdf',
 	href: './img/karinakuroda.pdf'
+	//href: './img'
 });
 	
 
