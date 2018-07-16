@@ -1,6 +1,7 @@
-(function($) {
-  "use strict";
 
+(function ($) {
+  "use strict";
+	
 // Document ready
 
 $(document).ready(function(){
@@ -21,6 +22,13 @@ $(window).scroll(function(){
 		});
 	}
 });
+
+	$('.but.brd').attr({
+	target: '_blank',
+	href: './img/karinakuroda.pdf'
+});
+	
+
 
 // Section scroll 
 
